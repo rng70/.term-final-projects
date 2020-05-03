@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: GREY" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InstructionsController">
+   <children>
+      <Button layoutX="744.0" layoutY="605.0" mnemonicParsing="false" onAction="#BackButtonPushed" text="Back" />
+   </children>
+</AnchorPane>

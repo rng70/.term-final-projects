@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="1050.0" prefWidth="2000.0" style="-fx-background-color: #017D6B" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameStageController">
+   <children>
+       <ImageView fitHeight="965.0" fitWidth="2000.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@../SpriteAndAnimation/GameView.gif" />
+           </image>
+       </ImageView>
+      <Rectangle fx:id="lifeLabel01" arcHeight="5.0" arcWidth="5.0" fill="#1fff31" height="13.0" layoutX="14.0" layoutY="51.0" stroke="BLACK" strokeType="INSIDE" width="230.0" />
+       <Rectangle fx:id="lifeLabel02" arcHeight="5.0" arcWidth="5.0" fill="#1fff31" height="13.0" layoutX="1598.0" layoutY="51.0" stroke="BLACK" strokeType="INSIDE" width="230.0" />
+       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff31" height="13.0" layoutX="1598.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="230.0" />
+       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff31" height="13.0" layoutX="14.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="230.0" />
+      <Label fx:id="nameLabel1" layoutX="14.0" layoutY="14.0" prefHeight="21.0" prefWidth="38.0" text="Label" />
+      <Label fx:id="nameLabel2" layoutX="1793.0" layoutY="24.0" text="Label" />
+      <Label fx:id="score1" layoutX="14.0" layoutY="106.0" text="Score" />
+      <Label fx:id="score2" layoutX="1792.0" layoutY="96.0" text="Score" />
+      <Label fx:id="life1" layoutX="15.0" layoutY="141.0" text="Life :" />
+      <Label fx:id="life2" layoutX="1793.0" layoutY="131.0" text="Life :" />
+
+   </children>
+</AnchorPane>

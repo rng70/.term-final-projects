@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="965.0" prefWidth="2000.0" style="-fx-background-color: #017D6B" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameStageController">
+   <children>
+       <ImageView fitHeight="965.0" fitWidth="2000.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@../SpriteAndAnimation/51800927_282366425765721_7555422853252775936_n.jpg" />
+           </image>
+       </ImageView>
+      <Rectangle fx:id="lifeLabel01" arcHeight="5.0" arcWidth="5.0" fill="#1fff31" height="13.0" layoutX="14.0" layoutY="51.0" stroke="BLACK" strokeType="INSIDE" width="230.0" />
+       <Rectangle fx:id="lifeLabel02" arcHeight="5.0" arcWidth="5.0" fill="#1fff31" height="13.0" layoutX="1598.0" layoutY="51.0" stroke="BLACK" strokeType="INSIDE" width="230.0" />
+      <Label fx:id="nameLabel1" layoutX="14.0" layoutY="14.0" prefHeight="21.0" prefWidth="230.0" text="Name1" textFill="#fff9f9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="nameLabel2" layoutX="1598.0" layoutY="24.0" prefHeight="21.0" prefWidth="230.0" text="Name2" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label fx:id="score1" layoutX="16.0" layoutY="102.0" prefHeight="21.0" prefWidth="230.0" text="Score : " textFill="#ebeaea">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label fx:id="life1" layoutX="14.0" layoutY="141.0" prefHeight="21.0" prefWidth="230.0" text="Life : " textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label fx:id="score2" layoutX="1598.0" layoutY="113.0" prefHeight="21.0" prefWidth="230.0" text="Score : " textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="life2" layoutX="1598.0" layoutY="151.0" prefHeight="21.0" prefWidth="230.0" text="Life" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Label>
+
+   </children>
+</AnchorPane>

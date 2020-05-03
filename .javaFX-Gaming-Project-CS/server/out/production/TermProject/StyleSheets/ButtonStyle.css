@@ -1,0 +1,37 @@
+.button{
+    -fx-font-family: Default ;
+    -fx-font-weight : bold;
+    -fx-background-color: transparent;
+    -fx-background-radius : 25;
+    -fx-font-size: 20;
+    -fx-font-fill: white;
+    -fx-font-style: italic;
+    -fx-animated: slide 5s infinity ;
+}
+.button:hover{
+    -fx-font-weight : bold;
+    -fx-background-color: #08d20a;
+    -fx-background-radius : 25;
+    -fx-font-size: 20;
+    -fx-font-fill: white;
+    -fx-border-color: white;
+    -fx-border-radius: 30px;
+    -fx-border-width: 4;
+
+}
+.button:pressed{
+    -fx-font-weight : bold;
+    -fx-background-color: transparent;
+    -fx-background-radius : 25;
+    -fx-font-size: 20;
+    -fx-font-fill: blue;
+    -fx-border-color: white;
+    -fx-border-radius: 40px 15px;
+    -fx-border-width: 5;
+    -fx-rotate: 10;
+
+}
+@keyframes slide {
+    from{left :0px}
+    to{left:100px}
+}

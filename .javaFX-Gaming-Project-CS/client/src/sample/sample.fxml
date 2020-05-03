@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1330.0" style="-fx-background-image: D\\TermProject\\src\\original.png;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <ImageView fitHeight="1000.0" fitWidth="1800.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../SpriteAndAnimation/50275419_2035182089906473_5235035255118757888_n.gif" />
+            </image>
+        </ImageView>
+        <Button layoutX="588.0" layoutY="331.0" mnemonicParsing="false" onAction="#StartButtonAction" style="-fx-background-color: #316f84" text="Start" textFill="#fffefe">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Button>
+        <Button layoutX="563.0" layoutY="393.0" mnemonicParsing="false" onAction="#InstructionsButtonPushed" style="-fx-background-color: #316f84" text="Instructions" textFill="#f2f2f2">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Button>
+        <Button layoutX="546.0" layoutY="446.0" mnemonicParsing="false" onAction="#HighScoreButtonPushed" style="-fx-background-color: #316f84;" text="High Scores" textFill="#fcfcfc">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Button>
+        <Button layoutX="586.0" layoutY="512.0" mnemonicParsing="false" style="-fx-background-color: #316f84" text="Help" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

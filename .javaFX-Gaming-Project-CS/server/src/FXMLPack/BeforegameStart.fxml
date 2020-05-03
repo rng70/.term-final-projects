@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLPack.BeforeGameStartController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="SpriteAndAnimation/GameView.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonProceed" layoutX="863.0" layoutY="381.0" mnemonicParsing="false" onAction="#ProceedButtonOnAction" prefHeight="31.0" prefWidth="109.0" text="Proceed" />
+      <Label fx:id="textArea2" alignment="TOP_CENTER" layoutX="136.0" layoutY="141.0" prefHeight="216.0" prefWidth="706.0" text="Label" />
+      <Label fx:id="textArea1" alignment="CENTER" layoutX="317.0" layoutY="22.0" prefHeight="104.0" prefWidth="344.0" text="Label" />
+   </children>
+</AnchorPane>

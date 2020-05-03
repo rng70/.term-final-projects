@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="877.0" style="-fx-background-image: D\\TermProject\\src\\original.png;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="416.0" fitWidth="870.0" layoutX="5.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../SpriteAndAnimation/mc1SHbe.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="693.0" layoutY="132.0" mnemonicParsing="false" onAction="#StartButtonAction" style="-fx-background-color: #316f84" text="Start" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font></Button>
+      <Button layoutX="665.0" layoutY="176.0" mnemonicParsing="false" onAction="#InstructionsButtonPushed" prefHeight="44.0" prefWidth="125.0" style="-fx-background-color: #316f84" text="Instructions" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="658.0" layoutY="235.0" mnemonicParsing="false" onAction="#HighScoreButtonPushed" style="-fx-background-color: #316f84" text="High Scores" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
+      <Button layoutX="691.0" layoutY="294.0" mnemonicParsing="false" style="-fx-background-color: #316f84" text="Help" textFill="#fff3f3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

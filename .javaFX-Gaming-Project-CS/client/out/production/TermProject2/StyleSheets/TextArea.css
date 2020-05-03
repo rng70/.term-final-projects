@@ -1,0 +1,9 @@
+.text-area{
+    -fx-background-color: transparent;
+    -fx-font-family: "Cambria";
+    -fx-font-weight: bold;
+    -fx-font-color : red;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px ;
+    -fx-border-radius: 0px;
+}

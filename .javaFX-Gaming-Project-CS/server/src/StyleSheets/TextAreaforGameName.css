@@ -1,0 +1,15 @@
+.text-area{
+    /*-fx-background-color: black;*/
+    -fx-font-family: "Cambria";
+    -fx-font-weight: bold;
+    -fx-font-color : red;
+    -fx-font-size: 50px;
+    /*-fx-text-shadow: 3px 1px black;*/
+    -fx-border-color: transparent;
+    -fx-border-width: 0px ;
+    -fx-border-radius: 0px;
+    -fx-text-fill:red;
+}
+/*.text-area.content{*/
+    /*-fx-background-color: red;*/
+/*}*/

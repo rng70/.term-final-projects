@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: ORANGE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HighScoreController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="893.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../SpriteAndAnimation/378022.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="764.0" layoutY="587.0" mnemonicParsing="false" onAction="#BackButtonPushed" text="Back" />
+      <ImageView fitHeight="62.0" fitWidth="247.0" layoutX="300.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../SpriteAndAnimation/highscores.jpg" />
+         </image>
+      </ImageView>
+      <ListView fx:id="listview" layoutX="264.0" layoutY="126.0" prefHeight="523.0" prefWidth="322.0" />
+   </children>
+</AnchorPane>

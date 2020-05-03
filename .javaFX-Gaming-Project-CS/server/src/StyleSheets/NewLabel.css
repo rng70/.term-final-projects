@@ -1,0 +1,11 @@
+.label{
+
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-font-family: "fantasy";
+    -fx-border-color: #2F0B04;
+    -fx-border-width: 2;
+    -fx-border-radius: 0px 10px 10px 0px;
+
+}
